@@ -69,7 +69,11 @@ namespace ClassBLInventario
             coleccion[4].Value = nuevo.Descripcion;
             coleccion[5].Value = nuevo.f_tipoRam;
             coleccion[6].Value = nuevo.id_Gabinete;
+<<<<<<< HEAD
             coleccion[7].Value = nuevo.img;
+=======
+            coleccion[6].Value = nuevo.img;
+>>>>>>> f4fc620c5058dd19b73c7de5c19e64153380c7b0
             Boolean salida = false;
             salida = operacion.ModificarBDMasSeguro(sentencia, operacion.AbrirConexion(ref m), ref m, coleccion);
             return salida;
@@ -122,16 +126,26 @@ namespace ClassBLInventario
 
         public Boolean EliminarCPUGenerico(EntidadCPUGenerico nuevo, ref string m)
         {
+<<<<<<< HEAD
             string sentencia = "DELETE FROM CPU_Generico WHERE id_CPU = @id";
             SqlParameter[] coleccion = new SqlParameter[]
             {
                 new SqlParameter("id",SqlDbType.Int),
             };
             coleccion[0].Value = nuevo.id_CPU;
+=======
+            string sentencia = "DELETE FROM CPU_Generico WHERE Modelo = @mod";
+            SqlParameter[] coleccion = new SqlParameter[]
+            {
+                new SqlParameter("mod",SqlDbType.VarChar,20),
+            };
+            coleccion[0].Value = nuevo.Modelo;
+>>>>>>> f4fc620c5058dd19b73c7de5c19e64153380c7b0
             Boolean salida = false;
             salida = operacion.ModificarBDMasSeguro(sentencia, operacion.AbrirConexion(ref m), ref m, coleccion);
             return salida;
         }
+<<<<<<< HEAD
 
         public DataTable ObtenTodoTipoCPU(ref string mensaje)
         {
@@ -184,5 +198,7 @@ namespace ClassBLInventario
             }
             return salida;
         }
+=======
+>>>>>>> f4fc620c5058dd19b73c7de5c19e64153380c7b0
     }
 }

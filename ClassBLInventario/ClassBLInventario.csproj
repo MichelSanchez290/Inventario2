@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="CapaNegocioActualizacion.cs" />
     <Compile Include="CapaNegocioComputFinal.cs" />
     <Compile Include="CapaNegocioCPUGenerico.cs" />
@@ -55,6 +56,21 @@
     <Compile Include="CapaNegocioMonitor.cs" />
     <Compile Include="CapaNegocioMouse.cs" />
     <Compile Include="CapaNegocioTeclado.cs" />
+=======
+    <Compile Include="CapaNegocioCantDisc.cs" />
+    <Compile Include="CapaNegocioComponentes.cs" />
+    <Compile Include="CapaNegocioConsultas.cs" />
+    <Compile Include="CapaNegocioCPUGenerico.cs" />
+    <Compile Include="CapaNegocioDiscoDuro.cs" />
+    <Compile Include="CapaNegocioGabinete.cs" />
+    <Compile Include="CapaNegocioLaboratorio.cs" />
+    <Compile Include="CapaNegocioMarca.cs" />
+    <Compile Include="CapaNegocioMarCom.cs" />
+    <Compile Include="CapaNegocioRAM.cs" />
+    <Compile Include="CapaNegocioTipoCPU.cs" />
+    <Compile Include="CapaNegocioTipoRAM.cs" />
+    <Compile Include="CapaNegocioUbicacion.cs" />
+>>>>>>> f4fc620c5058dd19b73c7de5c19e64153380c7b0
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

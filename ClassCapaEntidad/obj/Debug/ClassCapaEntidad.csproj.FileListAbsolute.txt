@@ -7,6 +7,7 @@ C:\Users\Lenovo\Desktop\9no cuatri\profe memo\Producto_Inventario\ClassCapaEntid
 C:\Users\Lenovo\Desktop\9no cuatri\profe memo\Producto_Inventario\ClassCapaEntidad\ClassCapaEntidad\obj\Debug\ClassCapaEntidad.dll
 C:\Users\Lenovo\Desktop\9no cuatri\profe memo\Producto_Inventario\ClassCapaEntidad\ClassCapaEntidad\obj\Debug\ClassCapaEntidad.pdb
 C:\Users\Lenovo\Desktop\9no cuatri\profe memo\Producto_Inventario\ClassCapaEntidad\ClassCapaEntidad\obj\Debug\ClassCapaEntidad.csprojAssemblyReference.cache
+<<<<<<< HEAD
 D:\proyectoweb\Producto_Inventario\ClassCapaEntidad\ClassCapaEntidad\bin\Debug\ClassCapaEntidad.dll
 D:\proyectoweb\Producto_Inventario\ClassCapaEntidad\ClassCapaEntidad\bin\Debug\ClassCapaEntidad.pdb
 D:\proyectoweb\Producto_Inventario\ClassCapaEntidad\ClassCapaEntidad\bin\Debug\ClassAccesoDatosSQL22.dll
@@ -25,3 +26,5 @@ D:\proyectoweb\Inventario\ClassCapaEntidad\obj\Debug\ClassCapaEntidad.csproj.Cor
 D:\proyectoweb\Inventario\ClassCapaEntidad\obj\Debug\ClassCapaEntidad.csproj.CopyComplete
 D:\proyectoweb\Inventario\ClassCapaEntidad\obj\Debug\ClassCapaEntidad.dll
 D:\proyectoweb\Inventario\ClassCapaEntidad\obj\Debug\ClassCapaEntidad.pdb
+=======
+>>>>>>> f4fc620c5058dd19b73c7de5c19e64153380c7b0

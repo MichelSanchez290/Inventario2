@@ -118,6 +118,7 @@ namespace ClassBLInventario
             return salida;
         }
 
+<<<<<<< HEAD
         public DataTable DevuelveMarc(ref string mensaje)
         {
             string consulta = "select  Id_Marca,Marca from marcom, marca where Idcomponente = 6 and Idmarca = Id_Marca";
@@ -139,6 +140,16 @@ namespace ClassBLInventario
                 new SqlParameter("id",SqlDbType.Int),
             };
             coleccion[0].Value = nuevo.id_modcpu;
+=======
+        public Boolean EliminarModeloCPU(EntidadModeloCPU nuevo, ref string m)
+        {
+            string sentencia = "DELETE FROM ModeloCPU WHERE modeloCPU = @mod";
+            SqlParameter[] coleccion = new SqlParameter[]
+            {
+                new SqlParameter("mod",SqlDbType.VarChar,50),
+            };
+            coleccion[0].Value = nuevo.modeloCPU;
+>>>>>>> f4fc620c5058dd19b73c7de5c19e64153380c7b0
             Boolean salida = false;
             salida = operacion.ModificarBDMasSeguro(sentencia, operacion.AbrirConexion(ref m), ref m, coleccion);
             return salida;

@@ -18,8 +18,11 @@ namespace ClassCapaEntidad
         public string num_smouse { get; set; }
         public int id_mousg { get; set; }
         public string estado { get; set; }
+<<<<<<< HEAD
         public string img1 { get; set; }
         public string img2 { get; set; }
         public string img3 { get; set; }
+=======
+>>>>>>> f4fc620c5058dd19b73c7de5c19e64153380c7b0
     }
 }
